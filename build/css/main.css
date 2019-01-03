@@ -1,0 +1,57 @@
+.head {
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 100px; }
+
+.logo h1 {
+  display: inline;
+  color: #757575;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px; }
+
+.menu {
+  margin: 25px 100px; }
+
+.item {
+  list-style: none;
+  display: inline;
+  margin: 0 10px; }
+
+.link {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 50px;
+  text-transform: uppercase; }
+  .link:hover {
+    border-bottom: 3px solid #aaaaaa; }
+
+.home {
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 260px; }
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.title {
+  font-family: Amsdam;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.89px; }
+
+body {
+  max-width: 2010px;
+  margin: auto; }
