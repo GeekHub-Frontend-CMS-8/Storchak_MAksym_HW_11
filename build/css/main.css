@@ -1,4 +1,6 @@
 .head {
+  max-width: 1600px;
+  margin: 0 auto;
   font-family: Montserrat;
   display: flex;
   align-items: center;
@@ -32,7 +34,7 @@
   .link:hover {
     border-bottom: 3px solid #aaaaaa; }
 
-.home {
+.section-home {
   background: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -41,17 +43,17 @@
   color: #ffffff;
   padding-top: 260px; }
 
-.slider {
+.section-home__slider {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-.title {
+.section__title {
   font-family: Amsdam;
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 0.89px; }
 
-body {
-  max-width: 2010px;
-  margin: auto; }
+.section {
+  max-width: 1600px;
+  margin: 0 auto; }
